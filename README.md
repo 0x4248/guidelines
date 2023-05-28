@@ -4,10 +4,37 @@ A set of guidelines that I follow when writing code and working on projects.
 
 ## Table of Contents
 
+- [Repository Structure](#repository-structure)
 - [Markdown](#markdown)
 - [General Code](#general-code)
 - [Commit Messages](#commit-messages)
 
+## Repository Structure
+
+All repositories should have the following structure:
+
+```
+.
+├── .github
+│   └── CODEOWNERS.txt
+├── README.md
+└── LICENCE.md 
+```
+
+Licence must be spelt with a `c` not an `s` as it is a British English word. This is because I am British and I use British English.
+
+The `.github` directory should contain a `CODEOWNERS.txt` file. This file should contain the following if I am the only person working on the project:
+
+```
+* @awesomelewis2007
+```                                                                       
+
+
+If there are multiple people working on the project then the `CODEOWNERS.txt` file should contain the following:
+
+```
+* @awesomelewis2007 @otherperson
+```
 
 ## Markdown
 
@@ -27,13 +54,6 @@ The `README.md` file should be structured as follows:
 A brief description of what this project does and who it's for
 
 Content of the README.md file
-
-## Licence
-
-This project is licensed under the [licence name](link to licence file)
-```
-
-
 
 ## General Code
 
