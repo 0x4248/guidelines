@@ -1,6 +1,6 @@
 # Guidelines
 
-A set of guidelines that I follow when writing code and working on projects.
+A set of guidelines that I follow when writing code and working on projects. Most of my repositories will follow these guidelines unless there not applicable to the project. 
 
 ## Table of Contents
 
