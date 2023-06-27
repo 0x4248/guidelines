@@ -26,14 +26,14 @@ Licence must be spelt with a `c` not an `s` as it is a British English word. Thi
 The `.github` directory should contain a `CODEOWNERS.txt` file. This file should contain the following if I am the only person working on the project:
 
 ```
-* @awesomelewis2007
+* @lewisevans2007
 ```                                                                       
 
 
 If there are multiple people working on the project then the `CODEOWNERS.txt` file should contain the following:
 
 ```
-* @awesomelewis2007 @otherperson
+* @lewisevans2007 @otherperson
 ```
 
 ## Markdown
@@ -74,7 +74,7 @@ For example:
 ```python
 # Py scanner
 # A metasploit like tool but for scanning and retrieving data from websites.
-# Github: https://www.github.com/awesomelewis2007/pyscan
+# Github: https://www.github.com/lewisevans2007/pyscan
 # Licence: GNU General Public License v3.0
 # By: Lewis Evans
 ```
